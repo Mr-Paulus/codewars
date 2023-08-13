@@ -6,7 +6,7 @@ function camelCase(str) {
     if (str.length == 0) {
         return str;
     }
-    '';
+    ;
     str = str[0].toUpperCase() + str.slice(1).toLowerCase();
     //remove spacing and make the next letter uppercase
     while (str.indexOf(' ') > 0) {
