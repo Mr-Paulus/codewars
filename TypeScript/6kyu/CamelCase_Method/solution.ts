@@ -4,7 +4,6 @@ export function camelCase(str: string): string {
         return str
     }''
 
-
     str = str[0].toUpperCase() + str.slice(1).toLowerCase();
 
     //remove spacing and make the next letter uppercase
