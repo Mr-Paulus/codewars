@@ -14,7 +14,7 @@ export function solution(str: string, ending: string): boolean {
       if (str.slice(lenending - lenstr) == str){
         return true;
       }
-    }
+    };
 
     return false;
 }
